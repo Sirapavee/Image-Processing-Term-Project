@@ -3,7 +3,7 @@ import cv2 as cv
 #read image
 img = cv.imread("advertising1.jpg")
 
-#convert image to grayscale
+#convert BGR image to grayscale
 imgGray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 #Image Thresholding
