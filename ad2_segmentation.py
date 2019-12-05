@@ -40,4 +40,4 @@ if cv.waitKey(0) & 0xFF == ord('x'):
     cv.destroyAllWindows()
 
 #save result image
-cv.imwrite('result_ad2.jpg', img)
+cv.imwrite('result2.jpg', img)
